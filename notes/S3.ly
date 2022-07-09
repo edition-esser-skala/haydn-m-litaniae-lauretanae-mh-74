@@ -107,212 +107,208 @@ KyrieSopranoIIILyrics = \lyricmode {
   bis. %57 finis
 }
 
-% VirgoTenoreNotes = {
-%   \relative c' {
-%     \clef "treble_8"
-%     \key f \major \time 3/4 \autoBeamOff \tempoVirgo
-%     R2.*3
-%     \mvTr c4\fE^\tutti c r
-%     R2.*3 %7
-%     c4 c r
-%     f, f4. d'8
-%     b4 a r %10
-%     R2.*3
-%     cis8.([ d32 e)] d4 r
-%     R2.*3 %17
-%     h8.([ c32 d)] c4 r
-%     c4. c8 d4
-%     c8 c c c d4 %20
-%     c r r
-%     R2.*6 %27
-%     r8 d c c c([ h)]
-%     c4 r r
-%     R2.*13 %42
-%     r4 r c8 c
-%     c4 c8 c b8. b16
-%     a8 c c c b4 %45
-%     a a2
-%     R2.
-%     r4 r a~
-%     a r r
-%     r r des~ %50
-%     des r r
-%     R2.*2
-%     r4 r c
-%     c r r %55
-%     r8 b b b b4
-%     a r r
-%     r8 g g g g4
-%     f r r
-%     r8 d' d d d4 %60
-%     g, \mvTr c2~\pE^\solo
-%     c4 d4.( es16[ f)]
-%     \appoggiatura f4 es4. d8 c4
-%     d8([ es)] f([ a,)] b([ d,)]
-%     f2( es4) %65
-%     d r r
-%     R2.
-%     f4 a c
-%     es4. f8 es4
-%     es d r %70
-%     d2 es4
-%     es8. d16 d4 r
-%     d d es
-%     es d r
-%     b4. b8 b4 %75
-%     \appoggiatura { b16[ c] } d2 c8([ b)]
-%     a4. a8 a4
-%     a8([ f')] f2
-%     f16([ e f e)] d4 d
-%     d~ d16[ es d c] b4 %80
-%     b16([ c d c)] b4 a
-%     a g r
-%     R2.*3 %85
-%     \mvTr c4\fE^\tutti c r
-%     as4.(\p g8) f4
-%     des'4.( c8) b4
-%     as4.( b8) g4
-%     f e! r %90
-%     f f4. des'8
-%     b4 as r
-%     r f2
-%     ges4. ges8 ges4
-%     r ges ges %95
-%     ges2 f4
-%     r ges ges
-%     as2 as4
-%     r as as
-%     as2 g4 %100
-%     r8 d'!4 d d8
-%     c4 c r
-%     r c2\f
-%     d8. b16 b4 r
-%     r d d8 d %105
-%     d4 d r
-%     c c c
-%     c c r
-%     R2.
-%     d2.( %110
-%     c)
-%     c4 r r
-%     f d2~
-%     d4 g,2
-%     g e'4 %115
-%     f f, r4
-%     d' c2
-%     c4 r r
-%     R2.
-%     r4 b g %120
-%     r c a
-%     R2.
-%     d4 d d
-%     c2( e4)
-%     f8 a, d4( c) %125
-%     c r r
-%     R2.*2
-%     R2.\fermata \bar "|." %129 finis
-%   }
-% }
-%
-% VirgoTenoreLyrics = \lyricmode {
-%   O -- ra, %5
-%
-%   o -- ra, %7
-%   o -- ra pro
-%   no -- bis, %10
-%
-%   o -- ra, %14
-%
-%   o -- ra, %18
-%   vir -- go po --
-%   tens, o -- ra pro no -- %20
-%   bis,
-%
-%   o -- ra pro no -- %28
-%   bis.
-%
-%   Cau -- sa %43
-%   no -- strae lae -- ti -- ti --
-%   ae, o -- ra pro no -- %45
-%   bis, vas
-%
-%   vas __
-%
-%   vas, __ %50
-%
-%   o -- %54
-%   ra, %55
-%   o -- ra pro no --
-%   bis,
-%   o -- ra pro no --
-%   bis,
-%   o -- ra pro no -- %60
-%   bis. Ro --
-%   sa __
-%   my -- sti -- ca,
-%   o -- ra pro
-%   no -- %65
-%   bis,
-%
-%   tur -- ris e --
-%   bur -- ne -- a,
-%   o -- ra, %70
-%   do -- mus
-%   au -- re -- a,
-%   o -- ra pro
-%   no -- bis,
-%   foe -- de -- ris %75
-%   ar -- ca,
-%   ia -- nu -- a
-%   coe -- li,
-%   o -- ra pro
-%   no -- bis, %80
-%   o -- ra pro
-%   no -- bis.
-%
-%   O -- ra, %86
-%   sa -- lus
-%   in -- fir --
-%   mo -- rum,
-%   o -- ra, %90
-%   o -- ra pro
-%   no -- bis,
-%   re --
-%   fu -- gi -- um
-%   pec -- ca -- %95
-%   to -- rum,
-%   con -- so --
-%   la -- trix
-%   af -- fli --
-%   cto -- rum, %100
-%   o -- ra pro
-%   no -- bis,
-%   au --
-%   xi -- li -- um
-%   Chri -- sti -- a -- %105
-%   no -- rum,
-%   o -- ra pro
-%   no -- bis,
-%
-%   o --  %110
-%
-%   ra,
-%   o -- ra __
-%   pro
-%   no -- bis, %115
-%   o -- ra
-%   pro no --
-%   bis,
-%
-%   o -- ra, %120
-%   o -- ra,
-%
-%   o -- ra pro
-%   no --
-%   bis, pro no -- %125
-%   bis. %126 finis
-% }
-%
+VirgoSopranoIIINotes = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \autoBeamOff \tempoVirgo
+    \mvTr a'4.(\pE^\solo g8) f4
+    d'4.( c8) b4
+    a4. b8 g4
+    \mvTr f\fE^\tutti e r
+    \mvTr a4.(\pE^\solo g8) f4 %5
+    d'4.( c8) b4
+    a4.( b8) g4
+    \mvTr f\fE^\tutti e r
+    f f4. d'8
+    b4 a r %10
+    r \mvTr g8([\pE^\solo e)] f([ d)]
+    e4( g'8[ e)] f([ d)]
+    e4( g,) f
+    \mvTr a\fE^\tutti a r
+    r \mvTr f8([\pE^\solo d)] e([ c)] %15
+    d4( f'8[ d)] e([ c)]
+    d4( f,) e
+    \mvTr g\fE^\tutti g r
+    g4. g8 g4
+    g8 g g g g4 %20
+    g \mvTr c2~\pE^\solo
+    c4 h a
+    h2 h4
+    h c gis
+    a2 a4 %25
+    r a a
+    g!16([ a g fis] g[ a h a] h[ c d c)]
+    d8 \mvTr h\fE^\tutti g g g4
+    g r r
+    R2.*9 %38
+    r4 \mvTr c2~\pE^\solo
+    c8 d d([ c)] c([ h)] %40
+    c8. d16 e4 c~
+    c8 d d([ c)] c([ h)]
+    c8. d16 e4 \mvTr g,8\fE^\tutti g
+    a4 f8 f f8. f16
+    f8 c' f, f f4 %45
+    f f2
+    \mvTr a4\pE^\solo a a
+    a8.([\trill g16)] fis4 \mvTr fis4~\fE^\tutti
+    fis \mvTr fis4\pE^\solo fis
+    g8. a16 b4 \mvTr g4~\fE^\tutti %50
+    g \mvTr g\pE^\solo g
+    g f c'~
+    c h h
+    c8.([\trill h16)] c4 \mvTr g\fE^\tutti
+    f8 \mvTr c'~\pE^\solo c16[ d c b] c[ es d c] %55
+    b8 \mvTr b\fE^\tutti b b b4
+    a8 \mvTr a4(\pE^\solo c b16[ a)]
+    g8 \mvTr g\fE^\tutti g g g4
+    f8 \mvTr f4(\pE^\solo g16_[ a] b[ a b c])
+    d8 \mvTr f,\fE^\tutti f f f4 %60
+    e r r
+    R2.*24 %85
+    \mvTr c'4\fE^\tuttiE c r
+    c4\p c2
+    b4 f2
+    e c'4
+    c c r %90
+    b as g
+    g f r
+    r des2
+    es4. es8 es4
+    r es es %95
+    es2 d!4
+    r es es
+    f2 f4
+    r f f
+    f2 e!4 %100
+    r8 d4 d d'8
+    c4 c  r
+    r f,2\f
+    f8. f16 f4 r
+    r d' d8 d %105
+    g,4 g r
+    c c c
+    c c r
+    R2.
+    d %110
+    c
+    c
+    f4 d2~
+    d4 g,2
+    g e'4 %115
+    f f, r
+    d' c2
+    c4 r r
+    R2.
+    g4 e r %120
+    a f r
+    R2.
+    g4 g g
+    g2.
+    f8 f f4( e) %125
+    f r r
+    R2.*2
+    R2.\fermata \bar "|." %129 finis
+  }
+}
+
+VirgoSopranoIIILyrics = \lyricmode {
+  Vir -- go
+  pru -- den --
+  tis -- si -- ma,
+  o -- ra,
+  vir -- go %5
+  ve -- ne --
+  ran -- da,
+  o -- ra,
+  o -- ra pro
+  no -- bis, %10
+  vir -- go
+  prae -- di --
+  can -- da,
+  o -- ra,
+  vir -- go %15
+  prae -- di --
+  can -- da,
+  o -- ra,
+  vir -- go po --
+  tens, o -- ra pro no -- %20
+  bis, vir --
+  _ go
+  cle -- mens,
+  vir -- go fi --
+  de -- lis, %25
+  o -- ra,
+  o --
+  ra, o -- ra pro no --
+  bis.
+
+  Spe -- %39
+  cu -- lum iu -- %40
+  sti -- ti -- ae, se --
+  des sa -- pi --
+  en -- ti -- ae, cau -- sa
+  no -- strae lae -- ti -- ti --
+  ae, o -- ra pro no -- %45
+  bis, vas
+  spi -- ri -- tu --
+  a -- le, vas __
+  ho -- no --
+  ra -- bi -- le, vas, __ %50
+  vas in --
+  si -- gne de --
+  vo -- ti --
+  o -- nis, o --
+  ra, o -- _ %55
+  ra, o -- ra pro no --
+  bis, o --
+  ra, o -- ra pro no --
+  bis, o --
+  ra, o -- ra pro no -- %60
+  bis.
+
+  O -- ra, %86
+  sa -- lus
+  in -- fir --
+  mo -- rum,
+  o -- ra, %90
+  o -- ra pro
+  no -- bis,
+  re --
+  fu -- gi -- um
+  pec -- ca -- %95
+  to -- rum,
+  con -- so --
+  la -- trix
+  af -- fli --
+  cto -- rum, %100
+  o -- ra pro
+  no -- bis,
+  au --
+  xi -- li -- um
+  Chri -- sti -- a -- %105
+  no -- rum,
+  o -- ra pro
+  no -- bis,
+
+  o -- %110
+  _
+  ra,
+  o -- ra __
+  pro
+  no -- bis, %115
+  o -- ra
+  pro no --
+  bis,
+
+  o -- ra, %120
+  o -- ra,
+
+  o -- ra pro
+  no --
+  bis, pro no -- %125
+  bis. %126
+}
+
 % ReginaTenoreNotes = {
 %   \relative c' {
 %     \clef "treble_8"
