@@ -321,139 +321,160 @@ VirgoSopranoIILyrics = \lyricmode {
   bis. %126
 }
 
-% ReginaAltoNotes = {
-%   \relative c' {
-%     \clef treble
-%     \twofourtime \key b \major \time 2/4 \autoBeamOff \tempoRegina
-%     R2*2
-%     r4 r8 \mvTr f\pE^\solo
-%     g g g g
-%     f4 f %5
-%     r8 d g f
-%     f f r4
-%     R2*6 %13
-%     r8 f f f
-%     f f r4 %15
-%     R2*2
-%     r4 r8 f
-%     f f f f
-%     e([ g)] f e %20
-%     f4. e8
-%     f16([ g)] a8 r4
-%     c,8( f4 e8)
-%     d( g4) f8
-%     e b'4 a8 %25
-%     \appoggiatura a g4 f8 r
-%     r4 f
-%     f r
-%     r f
-%     f r %30
-%     R2
-%     g~
-%     g
-%     f4 r
-%     r8 f f f %35
-%     f4( e)
-%     f r
-%     R2*14 %51
-%     g2
-%     f
-%     es8 c es g
-%     \appoggiatura f e4. e8 %55
-%     f16([ g a g)] f4
-%     R2*3
-%     \once \tieDashed b2~ %60
-%     b
-%     a4 r8 f
-%     f2
-%     f4 r
-%     R2*2 %66
-%     \mvTr f2\fE^\tutti
-%     a
-%     b4 r8 f
-%     g4 g8 g %70
-%     f4 f
-%     r8 d g f
-%     f8. f16 f4
-%     R2*5 %78
-%     g2
-%     f4 r %80
-%     b2
-%     f4 c
-%     b c
-%     d8 es4 f8
-%     g[ c,] d4 %85
-%     es r8 g
-%     f f f4
-%     f r
-%     R2*10 %98
-%     R2\fermata \bar "|." %99 finis
-%   }
-% }
-%
-% ReginaAltoLyrics = \lyricmode {
-%   Re -- %3
-%   gi -- na An -- ge --
-%   lo -- rum, %5
-%   o -- ra pro
-%   no -- bis,
-%
-%   o -- ra pro %14
-%   no -- bis, %15
-%
-%   re -- %18
-%   gi -- na Pro -- phe --
-%   ta -- rum, o -- %20
-%   ra pro
-%   no -- bis,
-%   re --
-%   gi -- na
-%   A -- po -- sto -- %25
-%   lo -- rum,
-%   o --
-%   ra,
-%   o --
-%   ra, %30
-%
-%   o --
-%
-%   ra,
-%   o -- ra pro %35
-%   no --
-%   bis.
-%
-%   Re -- %52
-%   gi --
-%   na, re -- gi -- na
-%   Con -- fes --
-%   so -- rum,
-%
-%   \xE o -- %60
-%
-%   ra \x pro
-%   no --
-%   bis.
-%
-%   Re -- %67
-%   gi --
-%   na, re --
-%   gi -- na San -- %70
-%   cto -- rum,
-%   San -- cto -- rum
-%   o -- mni -- um,
-%
-%   o -- %79
-%   ra, %80
-%   o --
-%   ra, o --
-%   ra pro
-%   no -- _ _
-%   _ _ %85
-%   bis, o --
-%   ra pro no --
-%   bis. %88 finis
-% }
-%
+ReginaSopranoIINotes = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \autoBeamOff \tempoRegina
+    \mvTr d'2\pE^\solo
+    c
+    b4 r8 b
+    b b b b
+    a([ c)] b a %5
+    b4. a8
+    b16([ c)] d8 r4
+    R2*6 %13
+    r8 c c b
+    b a r4 %15
+    R2*2
+    r4 r8 a
+    \appoggiatura a16 g8 g g g
+    b4 a8 g %20
+    f4 g\trill
+    a16([ g)] f8 r4
+    R2*4 %26
+    c'8 f4 e8
+    cis[ d] d4
+    d8 f4 d8
+    h([ c)] c4 %30
+    c8( f4) f,8
+    g2~
+    g
+    f4 r
+    r r8 a %35
+    d d c4
+    c r
+    R2*6 %43
+    r8 a a4~
+    a8 b b4~ %45
+    b8 c c4
+    r8 c b a
+    a4( g)\trill
+    fis r
+    b2 %50
+    a
+    g4 r
+    R2
+    c
+    b! %55
+    a8 f a c
+    a4. a8
+    b4 r
+    b2~
+    b4 g %60
+    c2~
+    c4 a8 a
+    c4( b)\trill
+    a8 c c c
+    es4( d)\trill %65
+    c r
+    \mvTr d2\fE^\tutti
+    c
+    b4 r8 b
+    b4 b8 b %70
+    a([ c)] b a
+    b4. a8
+    b8. c16 d4
+    R2*4 %77
+    f,8 b4 a8
+    g c4 b8
+    a d4 c8 %80
+    b es4 d8
+    c f4 es8
+    d16[ es d es] c[ d c d]
+    b4 a
+    g f %85
+    es a8 b
+    c( b4 a8)
+    b4 r
+    R2*10 %98
+    R2\fermata \bar "|." %99 finis
+  }
+}
+
+ReginaSopranoIILyrics = \lyricmode {
+  Re --
+  gi --
+  na, re --
+  gi -- na An -- ge --
+  lo -- rum, o -- %5
+  ra pro
+  no -- bis,
+
+  o -- ra pro %14
+  no -- bis, %15
+
+  re -- %18
+  gi -- na Pro -- phe --
+  ta -- rum, o -- %20
+  ra pro
+  no -- bis,
+
+  o -- _ _ %27
+  _ ra,
+  o -- ra pro
+  no -- bis, %30
+  o -- ra,
+  o --
+
+  ra,
+  o -- %35
+  ra pro no --
+  bis.
+
+  Re -- gi -- %44
+  na Mar -- %45
+  ty -- rum,
+  o -- ra pro
+  no --
+  bis,
+  re -- %50
+  gi --
+  na,
+
+  re --
+  gi -- %55
+  na, re -- gi -- na,
+  Vir -- gi --
+  num,
+  o --
+  ra, %60
+  o --
+  ra pro
+  no --
+  bis, o -- ra pro
+  no -- %65
+  bis.
+  Re --
+  gi --
+  na, re --
+  gi -- na San -- %70
+  cto -- rum, San --
+  cto -- rum
+  o -- mni -- um,
+
+  o -- _ _ %78
+  _ _ _
+  _ _ _ %80
+  _ _ _
+  _ _ _
+  _ _
+  _ _
+  _ _ %85
+  _ ra pro
+  no --
+  bis. %88 finis
+}
+
 % AgnusAltoNotes = {
 %   \relative c' {
 %     \clef treble
