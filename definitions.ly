@@ -10,7 +10,7 @@ accomp =  \markup \remark  "accomp."
 
 
 tempoKyrie = \tempoMarkup "Allegro molto"
-% tempoSancta = \tempoMarkup "Andante"
+tempoSancta = \tempoMarkup "Andante"
 % tempoVirgo = \tempoMarkup "Allegretto"
 % tempoRegina = \tempoMarkup "Allegro"
 % tempoAgnus = \tempoMarkup "Adagio"
