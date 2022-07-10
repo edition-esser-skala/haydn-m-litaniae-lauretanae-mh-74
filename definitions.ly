@@ -2,7 +2,7 @@
 
 #(define option-movement-title-format "number-title")
 #(define option-init-toc #t)
-#(define option-print-all-bar-numbers #t)
+#(define option-print-all-bar-numbers #f)
 \include "ees.ly"
 
 
@@ -13,7 +13,7 @@ tempoKyrie = \tempoMarkup "Allegro molto"
 tempoSancta = \tempoMarkup "Andante"
 tempoVirgo = \tempoMarkup "Allegretto"
 tempoRegina = \tempoMarkup "Allegro"
-% tempoAgnus = \tempoMarkup "Adagio"
+tempoAgnus = \tempoMarkup "Adagio"
 
 
 \include "notes/vl1.ly"

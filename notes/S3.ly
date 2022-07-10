@@ -454,54 +454,54 @@ ReginaSopranoIIILyrics = \lyricmode {
   bis. %88 finis
 }
 
-% AgnusTenoreNotes = {
-%   \relative c' {
-%     \clef "treble_8"
-%     \key b \major \time 3/4 \autoBeamOff \tempoAgnus
-%     R2.*39 %39
-%     r4 \mvTr d\fE^\tutti f %40
-%     es g, b
-%     a! a c
-%     b8([ a16 b] c4) b
-%     b a r
-%     R2.*4 %48
-%     c2.\f
-%     c %50
-%     b~
-%     b8 es d4( c)
-%     b r r
-%     r d d
-%     d2. %55
-%     d
-%     c
-%     c
-%     c4( b) c
-%     c2 b4~ %60
-%     b a8[ g] a4
-%     b2.
-%     R\fermata \bar "|." %63 FINIS
-%   }
-% }
-%
-% AgnusTenoreLyrics = \lyricmode {
-%   A -- gnus %40
-%   De -- i, qui
-%   tol -- lis pec --
-%   ca -- ta
-%   mun -- di:
-%
-%   Mi --
-%   se -- %50
-%   re --
-%   re no --
-%   bis,
-%   mi -- se --
-%   re -- %55
-%   re,
-%   mi --
-%   se --
-%   re -- re
-%   no -- _ %60
-%   _ _
-%   bis. %62 FINIS
-% }
+AgnusSopranoIIINotes = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/4 \autoBeamOff \tempoAgnus
+    R2.*39 %39
+    r4 \mvTr d\fE^\tutti f %40
+    es e g
+    f fis a
+    g2 g4
+    f! f r
+    R2.*4 %48
+    a2.\fE
+    ges2( f4) %50
+    f2.
+    g!4 f2
+    f4 r r
+    r f f
+    g2. %55
+    g
+    R
+    f~
+    f2 g4
+    f( a) b %60
+    f'2( f,4)
+    f2.
+    R\fermata \bar "|." %63 finis
+  }
+}
+
+AgnusSopranoIIILyrics = \lyricmode {
+  A -- gnus %40
+  De -- i, qui
+  tol -- lis pec --
+  ca -- ta
+  mun -- di:
+
+  Mi --
+  se -- %50
+  re --
+  re no --
+  bis,
+  mi -- se --
+  re -- %55
+  re,
+
+  mi --
+  se --
+  re -- re %60
+  no --
+  bis. %62 finis
+}
