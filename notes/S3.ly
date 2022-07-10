@@ -107,6 +107,14 @@ KyrieSopranoIIILyrics = \lyricmode {
   bis. %57 finis
 }
 
+SanctaSopranoIIINotes = {
+  \relative c' {
+    \clef treble
+    \key g \dorian \time 4/4 \autoBeamOff \tempoSancta
+    R1*55^\markup \remark "tacet" \bar "||" %55 finis
+  }
+}
+
 VirgoSopranoIIINotes = {
   \relative c' {
     \clef treble

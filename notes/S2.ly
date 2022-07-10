@@ -59,6 +59,14 @@ KyrieSopranoIINotes = {
   }
 }
 
+SanctaSopranoIINotes = {
+  \relative c' {
+    \clef treble
+    \key g \dorian \time 4/4 \autoBeamOff \tempoSancta
+    R1*55^\markup \remark "tacet" \bar "||" %55 finis
+  }
+}
+
 KyrieSopranoIILyrics = \lyricmode {
   Ky -- ri -- %6
   e e --

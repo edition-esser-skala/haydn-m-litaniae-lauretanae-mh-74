@@ -337,13 +337,13 @@ VirgoOrgano = {
       h r r
       c r \oneVoice \mvTr c'16\fE-\org-\bassi d! c b
     } \\ {
-      \mvTr f,8\p_\bassi f' f f f f
+      \mvTr f,8_\bassi f' f f f f
       b, b b b b b
       c c c c c c
       f4 c r %90
       des c b
       c f, r
-      des'8\fp des des des des des
+      \mvDll des'8\fp des des des des des
       c c c c c c
       ces\fp ces ces ces ces ces %95
       b b b b b b
