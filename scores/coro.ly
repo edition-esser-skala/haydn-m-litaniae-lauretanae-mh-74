@@ -12,28 +12,28 @@
       <<
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Soprano"
-            \new Voice = "Soprano" { \dynamicUp \KyrieSopranoNotes }
+            \set Staff.instrumentName = "Soprano I"
+            \new Voice = "SopranoI" { \dynamicUp \KyrieSopranoINotes }
           }
-          \new Lyrics \lyricsto Soprano \KyrieSopranoLyrics
+          \new Lyrics \lyricsto SopranoI \KyrieSopranoILyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "Soprano II"
+            \new Voice = "SopranoII" { \dynamicUp \KyrieSopranoIINotes }
+          }
+          \new Lyrics \lyricsto SopranoII \KyrieSopranoIILyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "Soprano III"
+            \new Voice = "SopranoIII" { \dynamicUp \KyrieSopranoIIINotes }
+          }
+          \new Lyrics \lyricsto SopranoIII \KyrieSopranoIIILyrics
 
           \new Staff {
             \set Staff.instrumentName = "Alto"
             \new Voice = "Alto" { \dynamicUp \KyrieAltoNotes }
           }
           \new Lyrics \lyricsto Alto \KyrieAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "Tenore"
-            \new Voice = "Tenore" { \dynamicUp \KyrieTenoreNotes }
-          }
-          \new Lyrics \lyricsto Tenore \KyrieTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \KyrieBassoNotes }
-          }
-          \new Lyrics \lyricsto Basso \KyrieBassoLyrics
         >>
         \new Staff {
           \set Staff.instrumentName = "Organo"
@@ -46,25 +46,30 @@
   \bookpart {
     \section "2" "Sancta Maria"
     \addTocEntry
-    \paper {
-      system-system-spacing.basic-distance = #22
-      system-system-spacing.minimum-distance = #22
-      systems-per-page = #4
-    }
     \score {
       <<
         \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S 1"
+            \new Voice = "SopranoI" { \dynamicUp \SanctaSopranoINotes }
+          }
+          \new Lyrics \lyricsto SopranoI \SanctaSopranoILyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "S 2"
+            \new Voice = "SopranoII" { \dynamicUp \SanctaSopranoIINotes }
+          }
+
+          \new Staff {
+            \set Staff.instrumentName = "S 3"
+            \new Voice = "SopranoIII" { \dynamicUp \SanctaSopranoIIINotes }
+          }
+
           \new Staff {
             \set Staff.instrumentName = "A"
             \new Voice = "Alto" { \dynamicUp \SanctaAltoNotes }
           }
           \new Lyrics \lyricsto Alto \SanctaAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \SanctaTenoreNotes }
-          }
-          \new Lyrics \lyricsto Tenore \SanctaTenoreLyrics
         >>
         \new Staff { \SanctaOrgano }
         \new FiguredBass { \SanctaBassFigures }
@@ -74,15 +79,14 @@
   \bookpart {
     \section "3" "Virgo prudentissima"
     \addTocEntry
-    \paper { systems-per-page = #2 }
     \score {
       <<
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S 1"
-            \new Voice = "Soprano" { \dynamicUp \VirgoSopranoNotes }
+            \new Voice = "SopranoI" { \dynamicUp \VirgoSopranoINotes }
           }
-          \new Lyrics \lyricsto Soprano \VirgoSopranoLyrics
+          \new Lyrics \lyricsto SopranoI \VirgoSopranoILyrics
 
           \new Staff {
             \set Staff.instrumentName = "S 2"
@@ -91,22 +95,16 @@
           \new Lyrics \lyricsto SopranoII \VirgoSopranoIILyrics
 
           \new Staff {
+            \set Staff.instrumentName = "S 3"
+            \new Voice = "SopranoIII" { \dynamicUp \VirgoSopranoIIINotes }
+          }
+          \new Lyrics \lyricsto SopranoIII \VirgoSopranoIIILyrics
+
+          \new Staff {
             \set Staff.instrumentName = "A"
             \new Voice = "Alto" { \dynamicUp \VirgoAltoNotes }
           }
           \new Lyrics \lyricsto Alto \VirgoAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \VirgoTenoreNotes }
-          }
-          \new Lyrics \lyricsto Tenore \VirgoTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \VirgoBassoNotes }
-          }
-          \new Lyrics \lyricsto Basso \VirgoBassoLyrics
         >>
         \new Staff { \VirgoOrgano }
         \new FiguredBass { \VirgoBassFigures }
@@ -116,15 +114,14 @@
   \bookpart {
     \section "4" "Regina Angelorum"
     \addTocEntry
-    \paper { systems-per-page = #2 }
     \score {
       <<
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S 1"
-            \new Voice = "Soprano" { \dynamicUp \ReginaSopranoNotes }
+            \new Voice = "SopranoI" { \dynamicUp \ReginaSopranoINotes }
           }
-          \new Lyrics \lyricsto Soprano \ReginaSopranoLyrics
+          \new Lyrics \lyricsto SopranoI \ReginaSopranoILyrics
 
           \new Staff {
             \set Staff.instrumentName = "S 2"
@@ -133,22 +130,16 @@
           \new Lyrics \lyricsto SopranoII \ReginaSopranoIILyrics
 
           \new Staff {
+            \set Staff.instrumentName = "S 3"
+            \new Voice = "SopranoIII" { \dynamicUp \ReginaSopranoIIINotes }
+          }
+          \new Lyrics \lyricsto SopranoIII \ReginaSopranoIIILyrics
+
+          \new Staff {
             \set Staff.instrumentName = "A"
             \new Voice = "Alto" { \dynamicUp \ReginaAltoNotes }
           }
           \new Lyrics \lyricsto Alto \ReginaAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \ReginaTenoreNotes }
-          }
-          \new Lyrics \lyricsto Tenore \ReginaTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \ReginaBassoNotes }
-          }
-          \new Lyrics \lyricsto Basso \ReginaBassoLyrics
         >>
         \new Staff { \ReginaOrgano }
         \new FiguredBass { \ReginaBassFigures }
@@ -162,28 +153,28 @@
       <<
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \AgnusSopranoNotes }
+            \set Staff.instrumentName = "S 1"
+            \new Voice = "SopranoI" { \dynamicUp \AgnusSopranoINotes }
           }
-          \new Lyrics \lyricsto Soprano \AgnusSopranoLyrics
+          \new Lyrics \lyricsto SopranoI \AgnusSopranoILyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "S 2"
+            \new Voice = "SopranoII" { \dynamicUp \AgnusSopranoIINotes }
+          }
+          \new Lyrics \lyricsto SopranoII \AgnusSopranoIILyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "S 3"
+            \new Voice = "SopranoIII" { \dynamicUp \AgnusSopranoIIINotes }
+          }
+          \new Lyrics \lyricsto SopranoIII \AgnusSopranoIIILyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
             \new Voice = "Alto" { \dynamicUp \AgnusAltoNotes }
           }
           \new Lyrics \lyricsto Alto \AgnusAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \AgnusTenoreNotes }
-          }
-          \new Lyrics \lyricsto Tenore \AgnusTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \AgnusBassoNotes }
-          }
-          \new Lyrics \lyricsto Basso \AgnusBassoLyrics
         >>
         \new Staff { \AgnusOrgano }
         \new FiguredBass { \AgnusBassFigures }

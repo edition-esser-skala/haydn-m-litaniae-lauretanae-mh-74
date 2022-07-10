@@ -21,6 +21,7 @@
   \bookpart {
     \section "2" "Sancta Maria"
     \addTocEntry
+    \paper { page-count = #2 }
     \score {
       <<
         \new Staff { \SanctaViolinoII }
